@@ -3,7 +3,7 @@ let incorrect_answers = [];
 let correct_answers = [];
 let score = 0;
 
-fetch("https://opentdb.com/api.php?amount=20&type=multiple")
+fetch("https://opentdb.com/api.php?amount=20&type=multiple", { mode: 'no-cors'})
     .then(response => {
         return response.json();
     })
