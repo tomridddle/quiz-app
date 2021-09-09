@@ -3,7 +3,7 @@ let incorrect_answers = [];
 let correct_answers = [];
 let score = 0;
 
-fetch("https://opentdb.com/api.php?amount=20&type=multiple")
+fetch("https://opentdb.com/api.https://opentdb.com/api.php?amount=20&category=9&difficulty=easyphp?amount=20&type=multiple")
     .then(response => {
         return response.json();
     })
